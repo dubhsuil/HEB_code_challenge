@@ -86,7 +86,7 @@ if __name__ == '__main__':
     args.add_argument(
         '-i',
         '--input_filename',
-        help='The input filename',
+        help='The input filename, can be the absolute path if it is not local. If not provided, defaults to input.txt if not provided.',
         nargs='?',
         type=str,
         default='input.txt'
@@ -95,7 +95,7 @@ if __name__ == '__main__':
     args.add_argument(
         '-o',
         '--output_filename',
-        help='The output filename.',
+        help='The output filename, can be the absolute path, if you don\'t want it to be generated locally, defaults to output.txt if not provided.',
         nargs='?',
         type=str,
         default='output.txt'
