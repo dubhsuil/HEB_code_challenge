@@ -1,4 +1,4 @@
-"""Write histogrames to an output file."""
+"""Write a histogram to an output file."""
 import argparse
 import re
 
